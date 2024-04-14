@@ -117,3 +117,61 @@ header .navegação li a {
 .boxImg img {
     width: 250px;
 }
+
+@media screen and (max-width: 768px) {
+    section {
+        padding: 60px;
+    }
+
+    .container .text h2 {
+        font-size: 2em;
+        line-height: 2.2em;
+    }
+
+    .container .text h2 span{
+        font-size: 2.5em;
+    }
+
+    .container .text p {
+        font-size: 14px;
+    }
+
+    .container .text a {
+        margin-top: 30px;
+        padding: 6px 15px;
+        font-size: 12px;
+    }
+
+    .boxImg img {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    section {
+        padding: 40px;
+    }
+
+    .container .text h2 {
+        font-size: 1.5em;
+        line-height: 2em;
+    }
+
+    .container .text h2 span{
+        font-size: 2em;
+    }
+
+    .container .text p {
+        font-size: 12px;
+    }
+
+    .container .text a {
+        margin-top: 20px;
+        padding: 5px 10px;
+        font-size: 10px;
+    }
+
+    .boxImg img {
+        width: 100px;
+    }
+}
