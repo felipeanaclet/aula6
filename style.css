@@ -147,7 +147,7 @@ header .navegação li a {
     }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 390px) {
     section {
         padding: 40px;
     }
