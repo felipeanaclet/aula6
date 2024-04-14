@@ -149,12 +149,20 @@ header .navegação li a {
 
 @media screen and (max-width: 390px) {
     section {
-        padding: 40px;
+        padding: 30px;
+    }
+
+    header .logo {
+        max-width: 100px;
+    }
+
+    header .navegação li a {
+        font-size: 14px;
+        margin-left: 10px;
     }
 
     .container .text h2 {
         font-size: 1.5em;
-        line-height: 2em;
     }
 
     .container .text h2 span{
@@ -166,12 +174,11 @@ header .navegação li a {
     }
 
     .container .text a {
-        margin-top: 20px;
         padding: 5px 10px;
-        font-size: 10px;
+        margin-top: 15px;
     }
 
     .boxImg img {
-        width: 100px;
+        width: 80px;
     }
 }
